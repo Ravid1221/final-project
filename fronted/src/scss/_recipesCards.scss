@@ -1,0 +1,8 @@
+.recipesCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  text-align: center;
+  gap: 3rem;
+  justify-items: center;
+  padding: 5% 0;
+}

@@ -1,0 +1,48 @@
+.fieldContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+
+  label {
+    color: var(--crimson);
+  }
+
+  textarea {
+    border: solid 1px lightgray;
+
+    &:focus {
+      border: solid 1px #fe5f55;
+    }
+  }
+}
+
+.form-input {
+  outline: none;
+  border: none;
+  border-bottom: solid 1px lightgray;
+  font-size: 17px;
+  margin-bottom: 12px;
+  padding-bottom: 6px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form-input::placeholder,
+label {
+  color: var(--darker);
+  padding-bottom: 8px;
+}
+
+.form-input:focus {
+  outline: none;
+  border: none;
+  border-bottom: solid 1px var(--crimson);
+}
+
+.field-error {
+  color: var(--crimson);
+  font-size: 14px;
+}
+
+#date {
+  width: 40%;
+}

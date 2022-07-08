@@ -1,0 +1,13 @@
+.box-wrapper {
+  background-color: var(--darker);
+
+  .successful-operation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .successful-operation h2 {
+    text-align: center;
+  }
+}

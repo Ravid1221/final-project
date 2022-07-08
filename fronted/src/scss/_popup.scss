@@ -1,0 +1,37 @@
+.popup {
+  width: 100vw;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999999;
+  padding: 0;
+  background-color: var(--light);
+  height: 100%;
+  border-radius: 16px;
+
+  .container {
+    background: var(--light);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: auto;
+  }
+}
+
+.backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 9998;
+}
+
+@media only screen and (max-width: 590px) {
+  .popup {
+    border-radius: 0px;
+    width: 100vw !important;
+    height: 100vh !important;
+  }
+}

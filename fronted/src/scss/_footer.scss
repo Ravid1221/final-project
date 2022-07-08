@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--dark);
+  color: var(--light);
+  padding: 30px 20px;
+  font-size: 1.1rem;
+  text-align: center;
+
+  .logo {
+    color: var(--light);
+    text-decoration: none;
+  }
+
+  .copyright {
+    margin-top: 10px;
+  }
+
+  .email {
+    margin-top: 10px;
+    @media (max-width: 700px) {
+      margin: 10px 0;
+    }
+  }
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
+}

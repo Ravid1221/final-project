@@ -1,0 +1,102 @@
+h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+button {
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  color: var(--darker);
+  font-weight: bold;
+  text-transform: uppercase;
+
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  background-color: var(--blue);
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: -0.5rem;
+}
+
+.buttons button {
+  margin: 0 0.5rem;
+}
+
+button.remove {
+  color: var(--light);
+  background-color: var(--crimson);
+}
+
+h4 {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+li {
+  line-height: 1.4;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group:last-of-type {
+  margin-bottom: 0;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  resize: vertical;
+  max-height: 200px;
+  margin-bottom: 0.5rem;
+}
+
+.form-group label {
+  display: block;
+}
+
+.AddRecipe {
+  padding: 5px;
+  box-sizing: unset;
+
+  .container {
+    padding: 15px;
+  }
+
+  .deleteHeader {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+
+  .areYouSure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cancel {
+    margin-top: 10px;
+  }
+
+  .delete {
+    margin-top: 20px;
+  }
+}

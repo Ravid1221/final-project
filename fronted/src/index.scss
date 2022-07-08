@@ -1,0 +1,35 @@
+@import "./scss/mainButton";
+@import "./scss/formField";
+@import "./scss/form";
+@import "./scss/signUp";
+@import "./scss/navBar";
+@import "./scss/footer";
+@import "./scss/simpleForm";
+@import "./scss/messageBox";
+@import "./scss/popup";
+@import "./scss/addRecipe";
+@import "./scss/recipeCard";
+@import "./scss/recipesCards";
+@import "./scss/homePage";
+@import "./scss/recipeScreen";
+@import "./scss/aboutAs";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainContent {
+  min-height: calc(100vh - 149px);
+}
+
+:root {
+  --light: #eee;
+  --dark: #577399;
+  --darker: #495867;
+  --blue: #61dafb;
+  --crimson: #db3052;
+  --black: black;
+}

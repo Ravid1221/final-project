@@ -1,0 +1,32 @@
+.addNewButton {
+  margin: 20px 0px;
+}
+
+.headLine {
+  text-align: center;
+}
+
+.overAll {
+  height: 40vh;
+  h1 {
+    padding-top: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  h3 {
+    padding-top: 10px;
+  }
+
+  h1,
+  h3 {
+    font-size: clamp(2rem, 3vw, 5rem);
+    text-shadow: 0 20px 5px rgba(34, 33, 33, 0.76);
+    color: var(--light);
+    text-align: center;
+  }
+}
+
+svg:not(:root).svg-inline--fa,
+svg:not(:host).svg-inline--fa {
+  margin: 0 3px;
+}
